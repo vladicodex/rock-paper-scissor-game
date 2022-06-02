@@ -4,9 +4,55 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Rock - Paper - Scissor</title>
+        <title>rock-Little-Scissor</title>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        
+        <div class="main-container">
+            <div class="header">
+                <h1>Rock-Paper-Scissor</h1>
+                <h2>THE ONE WHO REACHES 3 FIRST WINS!!!</h2>
+            </div>
+            <div class="body">
+                <div class="moves-container">
+                    <!--PLAYER MOVES-->
+                    <div class="player-move">
+                        <div class="score">
+                            <h2>PLAYER: <span id="player-score">0</span></h2>
+                        </div>
+                        <div class="move">
+                            <img id="player-move" src="img/rock.svg">
+                        </div>
+                    </div>
+                    <!--VERSUS-->
+                    <div class="versus">
+                        <img src="img/versus.png" alt="Versus" width="200px" height="200px">
+                    </div>
+                    <!--COMPUTER MOVES-->
+                    <div class="player-move">
+                        <div class="score">
+                            <h2>COMPUTER: <span id="computer-score">0</span></h2>
+                        </div>
+                        <div class="move">
+                            <img id="computer-move" src="img/rock.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="select-container">
+                    <div class="select-title">
+                        <h3>SELECT YOUR MOVE<h3>
+                    </div>
+                    <div class="select-option">
+                        <input class="option" type="image" src="img/rock.svg" value="rock" />
+                        <input class="option" type="image" src="img/paper.svg" value="paper" />
+                        <input class="option" type="image" src="img/scissors.svg" value="scissors" />
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <span><br>By VladiCodex</span>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>
