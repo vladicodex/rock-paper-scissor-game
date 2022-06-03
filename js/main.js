@@ -22,12 +22,12 @@ function mainFunction(){
 }
 
 function updateMoves(playerOption, computerOption){
-    document.getElementById("player-move").src = `img/${playerOption}.svg`;
-    document.getElementById("computer-move").src = `img/${computerOption}.svg`;
+    document.getElementById("player-move").src = `img/${playerOption}.png`;
+    document.getElementById("computer-move").src = `img/${computerOption}.png`;
 }
 
 function compareOptions(playerOption, computerOption) {
-    const currentMatch = `PLAYER: ${playerOption} VS COMPUTER: ${computerOption}`;
+    const currentMatch = `${playerOption} VS ${computerOption}`;
     if (playerOption == computerOption) {
         alert(`${currentMatch} = Tie 🤝`);
         return;
