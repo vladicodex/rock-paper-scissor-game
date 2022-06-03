@@ -4,6 +4,7 @@ body {
     background-image: url(../img/bg.jpg);
     color: white;
     font-family: 'Courier New', Courier, monospace;
+    
 }
 .main-container {
     transition: 1s;
@@ -45,7 +46,7 @@ body {
 }
 
 .option:active {
-    filter: grayscale(100%) brightness(120%) sepia(90%) hue-rotate(5deg) saturate(500%) contrast(1);
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
 }
 
 .moves-container {
